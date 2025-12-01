@@ -1,4 +1,3 @@
-const readme = `
 # json-toon
 
 Convert **JSON ⇄ TOON**, a compact token-efficient data format.

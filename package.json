@@ -1,0 +1,48 @@
+{
+  "name": "json-toonify",
+  "version": "1.0.0",
+  "description": "This package provides utility methods to convert from json to toon and vice versa.",
+  "keywords": [
+    "json",
+    "toon",
+    "converter",
+    "data-format",
+    "parser"
+  ],
+  "homepage": "https://github.com/jaditi930/json-toonify#readme",
+  "bugs": {
+    "url": "https://github.com/jaditi930/json-toonify/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaditi930/json-toonify.git"
+  },
+  "license": "MIT",
+  "author": "jaditi930,akshay2002singh",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.5"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    }
+  }
+}

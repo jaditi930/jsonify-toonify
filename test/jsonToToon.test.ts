@@ -5,7 +5,6 @@ describe("jsonToToon()", () => {
   test("should convert simple object", () => {
     const input = { sku: "A1", qty: 2, price: 9.99 };
     const output = jsonToToon(input);
-    console.log(output);
 
     expect(output).toBe(
       `[1]{sku,qty,price}:\nA1,2,9.99`
@@ -60,9 +59,9 @@ describe("jsonToToon()", () => {
   });
 
   // ------------------- PRIMITIVE INPUT TESTS --------------------
-    test("should throw error for invalid JSON (string input)", () => {
+  test("should throw error for invalid JSON (string input)", () => {
     expect(() => jsonToToon("hello")).toThrow("Invalid JSON string");
-    });
+  });
 
   test("should convert number", () => {
     expect(jsonToToon(123)).toBe(`123`);

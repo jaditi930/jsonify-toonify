@@ -1,6 +1,6 @@
 {
   "name": "jsonify-toonify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This package provides utility methods to convert from json to toon and vice versa.",
   "keywords": [
     "json",

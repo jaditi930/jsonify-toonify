@@ -1,2 +1,2 @@
-export { jsonToToon } from "./jsonToToon";
-export { toonToJson } from "./toonToJson";
+export { jsonToToon } from "./jsonToToon.js";
+export { toonToJson } from "./toonToJson.js";

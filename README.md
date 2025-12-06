@@ -1,17 +1,17 @@
-# json-toonify
+# jsonify-toonify
 
 A lightweight TypeScript library for converting between JSON and TOON formats. TOON is a compact, token-efficient data format that's perfect for scenarios where you need to minimize data size while maintaining readability.
 
 ## Installation
 
 ```bash
-npm install json-toonify
+npm install jsonify-toonify
 ```
 
 ## Quick Start
 
 ```javascript
-import { jsonToToon, toonToJson } from 'json-toonify';
+import { jsonToToon, toonToJson } from 'jsonify-toonify';
 
 // Convert JSON to TOON
 const json = { sku: "A1", qty: 2, price: 9.99 };
@@ -224,7 +224,7 @@ try {
 Full TypeScript definitions are included:
 
 ```typescript
-import { jsonToToon, toonToJson } from 'json-toonify';
+import { jsonToToon, toonToJson } from 'jsonify-toonify';
 
 const data: { id: number; name: string }[] = [
   { id: 1, name: "Alice" }
@@ -253,5 +253,5 @@ MIT
 
 ## Links
 
-- [GitHub Repository](https://github.com/jaditi930/json-toonify)
-- [Report Issues](https://github.com/jaditi930/json-toonify/issues)
+- [GitHub Repository](https://github.com/jaditi930/jsonify-toonify)
+- [Report Issues](https://github.com/jaditi930/jsonify-toonify/issues)

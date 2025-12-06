@@ -1,5 +1,5 @@
 {
-  "name": "json-toonify",
+  "name": "jsonify-toonify",
   "version": "1.0.0",
   "description": "This package provides utility methods to convert from json to toon and vice versa.",
   "keywords": [
@@ -9,13 +9,13 @@
     "data-format",
     "parser"
   ],
-  "homepage": "https://github.com/jaditi930/json-toonify#readme",
+  "homepage": "https://github.com/jaditi930/jsonify-toonify#readme",
   "bugs": {
-    "url": "https://github.com/jaditi930/json-toonify/issues"
+    "url": "https://github.com/jaditi930/jsonify-toonify/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaditi930/json-toonify.git"
+    "url": "git+https://github.com/jaditi930/jsonify-toonify.git"
   },
   "license": "MIT",
   "author": "jaditi930,akshay2002singh",

@@ -1,17 +1,17 @@
-# Running json-toonify
+# Running jsonify-toonify
 
 ## Installation
 
 ```bash
-git clone https://github.com/jaditi930/json-toonify.git
-cd json-toonify
+git clone https://github.com/jaditi930/jsonify-toonify.git
+cd jsonify-toonify
 npm install
 ```
 
 ## File Structure
 
 ```
-json-toonify/
+jsonify-toonify/
 ├── src/
 │   ├── jsonToToon.ts    # JSON to TOON converter
 │   └── toonToJson.ts    # TOON to JSON converter
